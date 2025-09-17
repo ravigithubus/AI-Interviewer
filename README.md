@@ -1,4 +1,4 @@
-# AI Interview System - Hackathon Team 7
+# AI Interview System.
 
 This project is an intelligent interview system that uses AI to conduct technical interviews with candidates. The system leverages natural language processing, speech recognition, and conversational AI to create a realistic interview experience tailored to specific job descriptions.
 
@@ -34,8 +34,7 @@ The project is organized into two main components:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Hackathon-Aug-25-Team7.git
-   cd Hackathon-Aug-25-Team7
+   git clone origin git@github.com:ravigithubus/AI-Interviewer.git
    ```
 
 2. Set up and start the backend:
