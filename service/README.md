@@ -1,4 +1,4 @@
-# Interview AI - Hackathon Project Backend
+# Interview AI - Backend
 
 This repository contains the Python FastAPI backend for the Interview AI application, a cutting-edge solution that leverages AI to conduct technical interviews for job candidates.
 
@@ -23,13 +23,7 @@ This repository contains the Python FastAPI backend for the Interview AI applica
 
 ## 🛠️ Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/interview-ai.git
-   cd interview-ai/service
-   ```
-
-2. Create and activate a virtual environment:
+1. Create and activate a virtual environment:
    ```bash
    python -m venv venv
    # On Windows
@@ -38,12 +32,12 @@ This repository contains the Python FastAPI backend for the Interview AI applica
    source venv/bin/activate
    ```
 
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` file with your configuration:
+3. Create a `.env` file with your configuration:
    ```
    DATABASE_URL=postgresql://username:password@localhost/interview_db
    DEEPGRAM_API_KEY=your_deepgram_api_key
@@ -52,7 +46,7 @@ This repository contains the Python FastAPI backend for the Interview AI applica
    JWT_SECRET=your_secret_key
    ```
 
-5. Initialize the database:
+4. Initialize the database:
    ```bash
    # The tables will be created on first startup
    ```
