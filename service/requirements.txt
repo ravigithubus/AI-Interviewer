@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+python-dotenv
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic 
+pipecat-ai[webrtc,silero,deepgram,openai,cartesia,runner]>=0.0.77
+anthropic
+loguru
+uvicorn
