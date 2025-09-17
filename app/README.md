@@ -1,4 +1,4 @@
-# Interview AI - Hackathon Project Frontend
+# Interview AI - Frontend
 
 This repository contains the React frontend for the Interview AI application, which uses WebRTC and AI to conduct automated technical interviews for job candidates.
 
@@ -18,20 +18,14 @@ This repository contains the React frontend for the Interview AI application, wh
 
 ## 🛠️ Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/interview-ai.git
-   cd interview-ai/app
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    npm install
    # or
    yarn install
    ```
 
-3. Create a `.env` file in the app directory with your API endpoints:
+2. Create a `.env` file in the app directory with your API endpoints:
    ```
    VITE_API_BASE_URL=http://localhost:8000
    ```
